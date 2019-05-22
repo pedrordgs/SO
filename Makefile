@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -g -ggdb
 
-program: ma sv cv ag
+program: ma sv cv ag sources
 
 ma: lib
 	$(CC) $(CFLAGS) ma.c -o ma lib.o
@@ -17,6 +17,10 @@ ag: lib
 
 lib:
 	$(CC) $(CFLAGS) -c lib.c
+
+sources:
+	mkdir -p agregacoes
+	mkdir -p help
 
 clean:
 	rm ma sv cv ag lib.o
