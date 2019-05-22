@@ -2,11 +2,11 @@
 
 Projeto para a cadeira de Sistemas Operativos.
 
-##Descrição
+## Descrição
 
 Simples programa de manutenção de stocks e vendas de artigos.
 
-##Utilização
+## Utilização
 
 ```bash
 $ git clone https://github.com/pedrordgs/SO.git
@@ -20,13 +20,13 @@ Antes de utilizar qualquer funcionalidade, corra o servidor.
 $ ./sv &
 ```
 
-###Manutenção de artigos
+### Manutenção de artigos
 
 ```bash
 $ ./ma
 ```
 
-####Intruções permitidas
+#### Intruções permitidas
 
 i -> insere artigo.
 n -> altera nome do artigo.
@@ -40,13 +40,13 @@ $ p (id artigo) (novo preço do artigo)
 $ ag
 ```
 
-###Cliente Venda
+### Cliente Venda
 
 ```bash
 $ ./cv
 ```
 
-###Instruções permitidas
+### Instruções permitidas
 
 Verificar número de stock do artigo (ex. artigo 10):
 ```bash
@@ -59,7 +59,7 @@ $ 10 20
 $ 10 -20
 ```
 
-###Agregador
+### Agregador
 
 ```bash
 $ ./ag
