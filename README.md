@@ -65,4 +65,12 @@ $ 10 -20
 $ ./ag
 ```
 
-Apenas agrega linhas de venda recebidas pelo STDIN no formato [id quantidade faturado].
+Apenas agrega linhas de venda recebidas pelo STDIN no formato [ id quantidade faturado ].
+
+## Testes
+
+Se desejar pode correr o script de testes que insere 100 000 artigos e faz 4 000 000 de instruções para entradas e saídas de stock para 3 clientes em simultâneo.
+
+```bash
+$ ./test.sh
+```
