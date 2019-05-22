@@ -34,9 +34,9 @@ p -> altera preço do artigo.
 ag -> agrega as vendas, criando um ficheiro na pasta /agregacoes com a data da agregação.
 
 ```bash
-$ i (nome artigo) (preço unitario)
-$ n (id do artigo) (novo nome do artigo)
-$ p (id artigo) (novo preço do artigo)
+$ i massa 12.6   # i (nome do artigo) (preço unitario)
+$ n 1 carne      # n (id do artigo) (novo nome do artigo)
+$ p 1 9.99       # p (id artigo) (novo preço do artigo)
 $ ag
 ```
 
