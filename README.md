@@ -46,7 +46,7 @@ $ ag
 $ ./cv
 ```
 
-### Instruções permitidas
+#### Instruções permitidas
 
 Verificar número de stock do artigo (ex. artigo 10):
 ```bash
